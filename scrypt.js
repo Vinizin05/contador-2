@@ -3,18 +3,18 @@ const btnLess = document.getElementById("less");
 const reset = document.getElementById("reset");
 const text = document.getElementById("text");
 
-let contador = 0;
+let counter = 0;
 
-text.innerHTML = contador;
+text.innerHTML = counter;
 
 btnMore.addEventListener("click", function () {
-  text.innerText = ++contador;
+  text.innerText = ++counter;
 });
 
 reset.addEventListener("click", function () {
-  text.innerText = contador = 0;
+  text.innerText = counter = 0;
 });
 
 btnLess.addEventListener("click", function () {
-  text.innerText = --contador;
+  text.innerText = --counter;
 });

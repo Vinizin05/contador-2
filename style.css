@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: black;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h2 {
 
 button {
   margin: 5px;
-  background-color: green;
+  background-color: rgb(126, 0, 115);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -40,4 +41,5 @@ button {
   border-radius: 10px;
   border: purple solid 3px;
   padding: 30px;
+  box-shadow: 8px 10px 15px rgb(126, 0, 115);
 }
